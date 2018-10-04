@@ -3,3 +3,7 @@
     overflow: auto;
     height: 300px;
 }
+.container {
+    float: none;
+    margin-top: 10%
+}

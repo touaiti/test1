@@ -22,8 +22,6 @@ export class Etape2Component implements OnInit {
     let atBottom = element.scrollHeight - element.scrollTop === element.clientHeight
     if (this.isAcceptDisable && atBottom) {
         this.isAcceptDisable = false
-    } else {
-        this.isAcceptDisable = true
     }
   }
 
